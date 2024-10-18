@@ -1,0 +1,78 @@
+step 1- Install visual studio
+      - create a folder in destop or in any of the drive
+      - open the folder in visual studio
+      - create a html and css file in visual studio under the folder
+
+step 2-  Install github
+      - create a account in github using email 
+      - create a username and password 
+      - once after creating a account go to dashboard create a profile 
+      - in the upper- right corner of any page , click New Repository.
+      - Type a short or any name for your Repository
+      - Optionally , add a description of your repository(optional)
+      - choose to repository visibility and public
+      - click on create repository
+
+step 3- In the right corner of dashboard click into icon 
+      - go to repository and click on it
+      - When you click on repository click on the path and copy
+
+Step 4- Install git bash
+      - open git bash 
+      - intially cannot find the path of the folder, we have to create the folder in git bash
+      - certain cammands must be followed
+ 
+After opening the git bash
+    The cammands to be followed are :
+          - to find the path or add the fully path
+                  cd               [example (c/user)]
+                  cd Desktop       [example (c/user/Desktop)]
+                  cd index         [example (c/user/Desktop/index)]
+
+          - to initialize or reinitialze the repository
+                  git init
+
+                  Reinitialized existing Git repository in C:/Users/Admin/Desktop/pussgit/.git/
+
+          - To add the code or file 
+                  git add .
+
+          - To check the status of the file
+                  git status
+                 
+                  On branch master
+                  
+                  No commits yet
+                  
+                  Changes to be committed:
+                    (use "git rm --cached <file>..." to unstage)
+                          new file:   Forgotpin.css
+                          new file:   Forgotpin.html
+                          new file:   creant
+                          new file:   designs.html
+
+                          git commit -m "my first commit"
+                          [master (root-commit) ed1f825] my first commit
+                          4 files changed, 167 insertions(+)
+                          create mode 100644 Forgotpin.css
+                          create mode 100644 Forgotpin.html
+                          create mode 160000 creant
+                          create mode 100644 designs.html
+                          
+          - Paste the path copied from the github repository
+                  git remote add origin https://github.com/MRLakshitha/samplegitt.git
+
+          - To push the code 
+                  git push -u origin master
+
+                  Enumerating objects: 5, done.
+                  Counting objects: 100% (5/5), done.
+                  Delta compression using up to 4 threads
+                  Compressing objects: 100% (5/5), done.
+                  Writing objects: 100% (5/5), 1.75 KiB | 357.00 KiB/s, done.
+                  Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+                  To https://github.com/MRLakshitha/samplegitt.git
+                    * [new branch]      master -> master
+                  branch 'master' set up to track 'origin/master'.
+                  
+                  
